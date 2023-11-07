@@ -1,31 +1,38 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-.container {
     margin: 20px;
 }
 
-#inputText {
-    width: 300px;
-    padding: 5px;
-    font-size: 16px;
+h1 {
+    text-align: center;
 }
 
-#showNotification {
-    background-color: green;
+#task-form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #0074D9;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     cursor: pointer;
-    font-size: 16px;
 }
 
-#notification {
-    display: none;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: green;
-    color: white;
+button:hover {
+    background-color: #0056b3;
+}
+
+#calendar {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
 }

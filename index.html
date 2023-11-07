@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Пример сайта с уведомлением</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Календарь задач</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Пример сайта с уведомлением</h1>
-        <input type="text" id="inputText" placeholder="Введите текст">
-        <button id="showNotification">Показать уведомление</button>
-        <div id="notification"></div>
+    <h1>Календарь задач</h1>
+
+    <div id="task-form">
+        <h2>Добавить задачу</h2>
+        <input type="text" id="task-name" placeholder="Название задачи">
+        <input type="date" id="start-date">
+        <input type="date" id="end-date">
+        <button id="add-task">Добавить</button>
     </div>
+
+    <div id="calendar">
+        <!-- Календарь будет генерироваться с использованием JavaScript -->
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
